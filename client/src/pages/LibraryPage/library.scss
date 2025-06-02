@@ -1,0 +1,35 @@
+
+.book-img{
+    position: relative;
+    height: 300px;
+    width: 200px;
+    object-position:center;
+
+}
+.book-categories{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    li{
+        color: #2689E0;
+        font-size: 12px;
+        background-color: #7ebceb80;
+        padding: 5px 10px;
+        border-radius: 10px;
+    }
+}
+.book{
+    display: flex;
+}
+.book-link{
+    border-radius: 12px;
+    width: 120px;
+    color: #F4F9FB;
+    padding: 10px 15px;
+    background-color: #2689E0;
+    transition: 0.3s;
+    text-align: center;
+    &:hover{
+        background-color: #7EBCEB;
+    }
+}

@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=ADLaM+Display&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+body{
+    font-family:sans-serif;
+}
+p{
+    color: #999999;
+}
+img{
+    user-select: none;
+}
+button{
+    cursor: pointer;
+}
+ul{
+    list-style: none;
+}
